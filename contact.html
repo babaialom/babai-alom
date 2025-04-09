@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8" />
+  <title>যোগাযোগ করুন | Currency Converter</title>
+  <meta name="description" content="Currency Converter টিমের সাথে যোগাযোগ করুন।">
+  <style>
+    body { font-family: sans-serif; padding: 20px; background: #f2f2f2; }
+    form { max-width: 500px; margin: auto; background: white; padding: 20px; border-radius: 10px; }
+    input, textarea { width: 100%; padding: 10px; margin-bottom: 10px; }
+    button { background: #007bff; color: white; border: none; padding: 10px; cursor: pointer; }
+    nav a { margin: 10px; color: white; text-decoration: none; }
+    nav { background: #007bff; padding: 10px; text-align: center; }
+    h1 { text-align: center; }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="blog.html">Blog</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <h1>যোগাযোগ করুন</h1>
+
+  <form action="https://formsubmit.co/youremail@gmail.com" method="POST">
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_next" value="thankyou.html">
+    <input type="text" name="name" placeholder="আপনার নাম" required />
+    <input type="email" name="email" placeholder="আপনার ইমেইল" required />
+    <textarea name="message" rows="5" placeholder="মেসেজ লিখুন" required></textarea>
+    <button type="submit">পাঠান</button>
+  </form>
+
+</body>
+</html>
